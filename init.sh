@@ -18,8 +18,8 @@ run() {
     "method":"${$METHOD}",
     "timeout":300,
     "fast_open":true,
-    "plugin":"obfs-server",
-    "plugin-opts":"obfs=http"
+    "plugin":"obfs",
+    "plugin-opts":"obfs=${OBFS}"
 }
 EOF
     fi
