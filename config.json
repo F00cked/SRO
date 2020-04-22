@@ -1,0 +1,10 @@
+{
+    "server":"0.0.0.0",
+    "server_port":${PORT},
+    "password":"${PSK}",
+    "timeout":300,
+    "method":"${METHOD}",
+    "fast_open":true,
+    "plugin":"obfs",
+    "plugin-opts":"obfs=${OBFS}"
+}
